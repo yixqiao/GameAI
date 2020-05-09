@@ -7,7 +7,7 @@ public class AppletLoad extends PApplet {
 	private static final int HEIGHT = 900;
 	private static final int FPS = 60;
 
-	private static final String MODEL_PATH = "models/G8000-150.mdl";
+	private static final String MODEL_PATH = "demo-150.mdl";
 
 	Game g;
 	NeuralNet nn;
