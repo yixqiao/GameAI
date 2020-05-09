@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+}
+
+group 'org.example'
+version '0.1.0'
+
+application {
+    mainClassName = "gameai.Main"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile fileTree(dir: 'libs', include: '*.jar')
+}
+
+shadowJar{
+    archiveFileName = "gameai-${version}.${extension}"
+}
