@@ -16,8 +16,8 @@ This is a demo of the AI playing one game.
 1. Open `src/main/java/gameai`
 2. In the first line of main, there should be a string `option`
 3. Set that to `play` to play the game as a person, or to `train` to train
-  - To play, use left, right, and down arrow keys 
-  - In training, press `space` to view the next generation play, and then `space` again to go back to silent training
+    - To play, use left, right, and down arrow keys 
+    - In training, press `space` to view the next generation play, and then `space` again to go back to silent training
 
 ## Game & AI info
 ### Game:
